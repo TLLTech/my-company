@@ -13,8 +13,8 @@ export const Container = styled.div`
     flex-direction: row;
 
     img {
-      width: 500px;
-      height: 250px;
+      width: 40%;
+      height: 120%;
     }
 
     div {

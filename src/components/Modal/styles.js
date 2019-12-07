@@ -36,12 +36,12 @@ export const Content = styled.div`
     display: flex;
     flex: 1;
     img {
-      width: 500px;
-      height: 250px;
+      width: 40%;
+      height: 120%;
     }
 
     .web {
-      height: 250px;
+      height: 100%;
       width: 100%;
       margin-left: 10px;
       border-radius: 5px;

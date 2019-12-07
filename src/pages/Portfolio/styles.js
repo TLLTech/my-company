@@ -54,8 +54,8 @@ export const ContentList = styled.li`
     img {
       margin-left: 10px;
       margin-bottom: 10px;
-      width: 50px;
-      height: 100px;
+      width: 20%;
+      height: 100%;
     }
 
     p {

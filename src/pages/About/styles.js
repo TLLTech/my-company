@@ -14,13 +14,13 @@ export const Container = styled.div`
     margin-bottom: 120px;
 
     img {
-      width: 500px;
-      height: 250px;
+      width: 40%;
+      height: 120%;
     }
 
     .cel {
-      width: 500px;
-      height: 250px;
+      width: 40%;
+      height: 120%;
       border-radius: 50%;
       margin-top: 100px;
     }
