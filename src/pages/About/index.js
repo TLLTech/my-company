@@ -11,7 +11,7 @@ export default function About() {
         <img src={gerente} alt="Header" />
         <div>
           <h1>Quem Somos ?</h1>
-          <h3>TLC - TLC - Loading Life with Technology</h3>
+          <h3>LLT - Loading Life with Technology</h3>
           <p>
             Somos uma empresa que está iniciando suas atividades, nesse ano de
             2019. Focamos no desenvolvimento Mobile e Web utilizando as melhores

@@ -20,6 +20,11 @@ export const Content = styled.div`
   padding: 40px;
   width: 920px;
 
+  button {
+    border: 0;
+    background: transparent;
+  }
+
   > h1 {
     text-align: center;
     color: rgba(196, 196, 196, 0.9);
@@ -30,70 +35,54 @@ export const Content = styled.div`
   > div {
     display: flex;
     flex: 1;
-    .image {
-      background: rgba(196, 196, 196, 0.41);
-      border-radius: 15px;
-      display: flex;
-      align-self: center;
-      width: 153px;
-      height: 144px;
+    img {
+      width: 500px;
+      height: 250px;
     }
 
-    > div {
-      display: flex;
-      flex-direction: column;
+    .web {
+      height: 250px;
+      width: 100%;
+      margin-left: 10px;
+      border-radius: 5px;
+    }
 
-      > label {
-        color: #fff;
-        font-size: 16px;
-        margin-left: 50px;
+    p {
+      color: rgba(196, 196, 196, 0.9);
+      font-size: 18px;
+      font-weight: bold;
+      margin-left: 10px;
+
+      div {
+        display: flex;
         margin-top: 20px;
+        justify-content: center;
 
-        a {
-          text-decoration: none;
-          color: #fff;
+        .apple {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(34, 38, 36, 0.4);
+          height: 50px;
+          width: 180px;
+          border-radius: 10px;
+          font-size: 16px;
           font-weight: bold;
         }
-      }
 
-      .rols {
-        color: #fff;
-        font-size: 16px;
-        margin-left: 50px;
-        margin-top: 20px;
-        display: flex;
-        flex: 1;
-
-        .nasc {
-          margin-left: 280px;
+        .play {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgba(53, 175, 109, 0.4);
+          height: 50px;
+          width: 180px;
+          border-radius: 10px;
+          font-size: 16px;
+          font-weight: bold;
+          margin-left: 10px;
         }
       }
-    }
-  }
-  .groupButton {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-
-    .aceita {
-      border: 0;
-      background: rgba(17, 87, 32, 0.54);
-      width: 174px;
-      height: 48px;
-      border-radius: 15px;
-      color: #fff;
-      font-weight: bold;
-    }
-
-    .rejeita {
-      border: 0;
-      background: rgba(173, 86, 86, 0.83);
-      width: 174px;
-      height: 48px;
-      border-radius: 15px;
-      color: #fff;
-      font-weight: bold;
-      margin-left: 20px;
     }
   }
 `;

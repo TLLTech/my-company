@@ -1,13 +1,12 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 import { Container } from "./styles";
 
 export default function Header() {
   return (
     <Container>
-      <h1>TLC</h1>
+      <h1>LLT</h1>
       <nav>
         <a href="/">Inicio</a>
         <a href="/about">Sobre</a>
