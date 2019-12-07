@@ -15,7 +15,12 @@ export default function Header() {
       </nav>
       <ul>
         <li>
-          <FaInstagram size={25} color="#fff" />
+          <a
+            href="https://www.instagram.com/llttech27/?hl=pt-br"
+            target="blank"
+          >
+            <FaInstagram size={25} color="#fff" />
+          </a>
         </li>
         <li>
           <FaFacebook size={25} color="#fff" />
