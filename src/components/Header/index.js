@@ -21,7 +21,9 @@ export default function Header() {
           <FaFacebook size={25} color="#fff" />
         </li>
         <li>
-          <FaGithub size={25} color="#fff" />
+          <a href="https://github.com/TLLTech" target="blank">
+            <FaGithub size={25} color="#fff" />
+          </a>
         </li>
       </ul>
     </Container>

@@ -68,6 +68,10 @@ export const Content = styled.div`
           border-radius: 10px;
           font-size: 16px;
           font-weight: bold;
+
+          &:hover {
+            background: rgba(34, 38, 36, 0.7);
+          }
         }
 
         .play {
@@ -81,6 +85,10 @@ export const Content = styled.div`
           font-size: 16px;
           font-weight: bold;
           margin-left: 10px;
+
+          &:hover {
+            background: rgba(53, 175, 109, 0.7);
+          }
         }
       }
     }

@@ -8,7 +8,7 @@ import web from "../../assets/web.png";
 import Modal from "../../components/Modal";
 
 export default function Portfolio() {
-  const a = [1, 2, 3];
+  const a = [1];
   const [visible, setVisible] = useState(false);
 
   function handleModalVisible(item) {
@@ -75,7 +75,10 @@ export default function Portfolio() {
                 realizar todo processo que hoje é feito manual de forma mais
                 automatizada, podendo ver as informações dos usuário cadastrados
                 <br></br>
-                <a href="https://5de50a95d2ea370008cfe079--modest-albattani-fc4b9f.netlify.com/">
+                <a
+                  href="https://5de50a95d2ea370008cfe079--modest-albattani-fc4b9f.netlify.com/"
+                  target="blank"
+                >
                   Visite o site, e veja
                 </a>
               </p>

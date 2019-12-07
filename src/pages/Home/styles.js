@@ -75,6 +75,10 @@ export const ContantoDiv = styled.div`
 
       margin-left: 350px;
       font-weight: bold;
+
+      &:hover {
+        background: rgba(0, 0, 0, 0.5);
+      }
     }
   }
 `;
