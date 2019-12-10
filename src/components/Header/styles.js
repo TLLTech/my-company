@@ -9,10 +9,14 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
 
+  img {
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+  }
   h1 {
     color: #fff;
     font-size: 18px;
-    margin-left: 80px;
     padding: 15px;
     border-right: 2px solid #eee;
   }

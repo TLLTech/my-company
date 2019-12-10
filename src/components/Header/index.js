@@ -2,10 +2,12 @@ import React from "react";
 import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
 
 import { Container } from "./styles";
+import logo from "../../assets/logo.png";
 
 export default function Header() {
   return (
     <Container>
+      <img src={logo} alt="logo" />
       <h1>LLT</h1>
       <nav>
         <a href="/">Inicio</a>
